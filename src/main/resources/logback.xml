@@ -1,0 +1,16 @@
+<configuration>
+    <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+
+        <filter class="com.github.sgdc3.reactord.ConsoleFilter" />
+
+        <encoder>
+            <pattern>
+                %-6d{HH:mm:ss} [%-5level] %-8logger -> %msg%n
+            </pattern>
+        </encoder>
+    </appender>
+
+    <root>
+        <appender-ref ref="STDOUT" />
+    </root>
+</configuration>

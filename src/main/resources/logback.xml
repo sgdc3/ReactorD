@@ -1,7 +1,9 @@
 <configuration>
     <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
 
+        <!--
         <filter class="com.github.sgdc3.reactord.ConsoleFilter" />
+        -->
 
         <encoder>
             <pattern>
